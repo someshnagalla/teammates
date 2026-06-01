@@ -1,7 +1,7 @@
 package teammates.ui.request;
 
-import teammates.ui.exception.InvalidHttpRequestBodyException;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import teammates.ui.exception.InvalidHttpRequestBodyException;
 
 /**
  * The request of specifying reminder emails to be sent.

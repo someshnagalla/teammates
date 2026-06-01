@@ -1,7 +1,7 @@
 package teammates.ui.request;
 
-import teammates.ui.exception.InvalidHttpRequestBodyException;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import teammates.ui.exception.InvalidHttpRequestBodyException;
 
 /**
  * The create request for an error report to be emailed to the admin.

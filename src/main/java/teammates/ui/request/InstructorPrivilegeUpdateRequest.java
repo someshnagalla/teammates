@@ -1,7 +1,7 @@
 package teammates.ui.request;
 
-import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.common.datatransfer.InstructorPrivileges;
+import teammates.ui.exception.InvalidHttpRequestBodyException;
 
 /**
  * The update request for instructor privilege.

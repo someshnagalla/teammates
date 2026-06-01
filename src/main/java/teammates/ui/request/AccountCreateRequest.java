@@ -1,17 +1,13 @@
 package teammates.ui.request;
 
-import teammates.ui.exception.InvalidHttpRequestBodyException;
 import java.util.ArrayList;
-import teammates.ui.exception.InvalidHttpRequestBodyException;
 import java.util.List;
 
-import teammates.ui.exception.InvalidHttpRequestBodyException;
 import jakarta.annotation.Nullable;
 
-import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.common.util.FieldValidator;
-import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.common.util.StringHelper;
+import teammates.ui.exception.InvalidHttpRequestBodyException;
 
 /**
  * The request of creating new account.

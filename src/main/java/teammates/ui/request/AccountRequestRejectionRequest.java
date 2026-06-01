@@ -1,13 +1,11 @@
 package teammates.ui.request;
 
-import teammates.ui.exception.InvalidHttpRequestBodyException;
 import java.util.Objects;
 
-import teammates.ui.exception.InvalidHttpRequestBodyException;
 import jakarta.annotation.Nullable;
 
-import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.common.util.SanitizationHelper;
+import teammates.ui.exception.InvalidHttpRequestBodyException;
 
 /**
  * The request reasonBody for rejecting an account request.
