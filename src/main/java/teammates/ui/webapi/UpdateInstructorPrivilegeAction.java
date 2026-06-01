@@ -1,16 +1,16 @@
 package teammates.ui.webapi;
 
 import java.util.UUID;
-
 import teammates.common.datatransfer.InstructorPrivileges;
 import teammates.common.exception.EntityDoesNotExistException;
 import teammates.common.util.Const;
 import teammates.storage.entity.Instructor;
 import teammates.ui.exception.EntityNotFoundException;
+import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.ui.exception.UnauthorizedAccessException;
 import teammates.ui.output.InstructorPrivilegeData;
 import teammates.ui.request.InstructorPrivilegeUpdateRequest;
-import teammates.ui.exception.InvalidHttpRequestBodyException;
+
 
 /**
  * Updates an instructor's privileges.

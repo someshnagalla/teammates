@@ -1,23 +1,23 @@
 package teammates.ui.servlets;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import java.io.IOException;
-
 import org.apache.http.HttpStatus;
 import org.hibernate.HibernateException;
 import org.testng.annotations.Test;
-
 import teammates.common.exception.DeadlineExceededException;
 import teammates.test.BaseTestCase;
 import teammates.test.MockHttpServletResponse;
 import teammates.ui.exception.ActionMappingException;
 import teammates.ui.exception.EntityNotFoundException;
 import teammates.ui.exception.InvalidHttpParameterException;
+import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.ui.exception.InvalidOperationException;
 import teammates.ui.exception.UnauthorizedAccessException;
 import teammates.ui.exception.UnexpectedServerException;
-import teammates.ui.exception.InvalidHttpRequestBodyException;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+
+
 
 /**
  * SUT: {@link WebApiServletExceptionHandler}.

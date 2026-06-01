@@ -1,13 +1,13 @@
 package teammates.ui.webapi;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.testng.annotations.Test;
-
 import teammates.common.util.Const;
+import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.ui.output.MessageOutput;
 import teammates.ui.request.ErrorReportRequest;
-import teammates.ui.exception.InvalidHttpRequestBodyException;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+
 
 /**
  * SUT: {@link SendErrorReportAction}.

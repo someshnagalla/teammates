@@ -1,24 +1,24 @@
 package teammates.it.ui.webapi;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 import teammates.common.datatransfer.DataBundle;
 import teammates.common.util.Const;
 import teammates.common.util.FieldValidator;
 import teammates.common.util.HibernateUtil;
 import teammates.storage.entity.Course;
 import teammates.storage.entity.Instructor;
+import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.ui.exception.InvalidOperationException;
 import teammates.ui.output.InstructorData;
 import teammates.ui.request.InstructorCreateRequest;
-import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.ui.webapi.JsonResult;
 import teammates.ui.webapi.UpdateInstructorAction;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+
 
 /**
  * SUT: {@link UpdateInstructorAction}.

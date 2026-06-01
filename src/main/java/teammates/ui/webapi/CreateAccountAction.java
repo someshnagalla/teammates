@@ -5,9 +5,7 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.temporal.ChronoUnit;
 import java.util.regex.Pattern;
-
 import org.apache.http.HttpStatus;
-
 import teammates.common.datatransfer.AccountRequestStatus;
 import teammates.common.datatransfer.DataBundle;
 import teammates.common.exception.EntityAlreadyExistsException;
@@ -24,9 +22,11 @@ import teammates.storage.entity.AccountRequest;
 import teammates.storage.entity.Instructor;
 import teammates.storage.entity.Student;
 import teammates.ui.exception.EntityNotFoundException;
+import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.ui.exception.InvalidOperationException;
 import teammates.ui.exception.UnexpectedServerException;
-import teammates.ui.exception.InvalidHttpRequestBodyException;
+
+
 
 /**
  * Creates a new instructor account with sample courses.

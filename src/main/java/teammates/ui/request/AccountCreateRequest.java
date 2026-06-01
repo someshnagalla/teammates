@@ -2,12 +2,12 @@ package teammates.ui.request;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import jakarta.annotation.Nullable;
-
 import teammates.common.util.FieldValidator;
 import teammates.common.util.StringHelper;
 import teammates.ui.exception.InvalidHttpRequestBodyException;
+
+
 
 /**
  * The request of creating new account.

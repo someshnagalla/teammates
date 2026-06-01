@@ -1,7 +1,6 @@
 package teammates.ui.webapi;
 
 import java.util.UUID;
-
 import teammates.common.exception.EntityDoesNotExistException;
 import teammates.common.util.Const;
 import teammates.storage.entity.FeedbackQuestion;
@@ -11,10 +10,11 @@ import teammates.storage.entity.Instructor;
 import teammates.storage.entity.ResponseGiver;
 import teammates.storage.entity.ResponseInstructorComment;
 import teammates.ui.exception.EntityNotFoundException;
+import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.ui.exception.UnauthorizedAccessException;
 import teammates.ui.output.ResponseInstructorCommentData;
-import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.ui.request.ResponseInstructorCommentUpdateRequest;
+
 
 /**
  * Updates a feedback response comment.

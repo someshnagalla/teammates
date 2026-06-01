@@ -1,23 +1,23 @@
 package teammates.ui.webapi;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.Mockito.when;
-
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
-
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 import teammates.common.datatransfer.NotificationStyle;
 import teammates.common.datatransfer.NotificationTargetUser;
 import teammates.common.exception.InvalidParametersException;
 import teammates.common.util.Const;
 import teammates.storage.entity.Notification;
 import teammates.ui.exception.InvalidHttpParameterException;
-import teammates.ui.output.NotificationData;
 import teammates.ui.exception.InvalidHttpRequestBodyException;
+import teammates.ui.output.NotificationData;
 import teammates.ui.request.NotificationUpdateRequest;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.Mockito.when;
+
+
+
 
 /**
  * SUT: {@link UpdateNotificationAction}.

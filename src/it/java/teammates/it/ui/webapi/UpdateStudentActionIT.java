@@ -1,14 +1,9 @@
 package teammates.it.ui.webapi;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotEquals;
-
 import java.util.List;
 import java.util.UUID;
-
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 import teammates.common.datatransfer.DataBundle;
 import teammates.common.util.Const;
 import teammates.common.util.EmailType;
@@ -21,12 +16,17 @@ import teammates.storage.entity.Section;
 import teammates.storage.entity.Student;
 import teammates.storage.entity.Team;
 import teammates.ui.exception.EntityNotFoundException;
+import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.ui.exception.InvalidOperationException;
 import teammates.ui.output.MessageOutput;
-import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.ui.request.StudentUpdateRequest;
 import teammates.ui.webapi.JsonResult;
 import teammates.ui.webapi.UpdateStudentAction;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
+
+
+
 
 /**
  * SUT: {@link UpdateStudentAction}.

@@ -1,7 +1,6 @@
 package teammates.ui.webapi;
 
 import java.util.UUID;
-
 import teammates.common.exception.EnrollException;
 import teammates.common.exception.EntityAlreadyExistsException;
 import teammates.common.exception.EntityDoesNotExistException;
@@ -13,10 +12,11 @@ import teammates.common.util.EmailWrapper;
 import teammates.storage.entity.Instructor;
 import teammates.storage.entity.Student;
 import teammates.ui.exception.EntityNotFoundException;
+import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.ui.exception.InvalidOperationException;
 import teammates.ui.exception.UnauthorizedAccessException;
-import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.ui.request.StudentUpdateRequest;
+
 
 /**
  * Action: Edits details of a student in a course.

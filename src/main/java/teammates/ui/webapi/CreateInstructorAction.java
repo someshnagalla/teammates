@@ -2,7 +2,6 @@ package teammates.ui.webapi;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import teammates.common.datatransfer.InstructorPermissionRole;
 import teammates.common.datatransfer.InstructorPrivileges;
 import teammates.common.exception.EntityAlreadyExistsException;
@@ -13,11 +12,12 @@ import teammates.common.util.SanitizationHelper;
 import teammates.storage.entity.Course;
 import teammates.storage.entity.Instructor;
 import teammates.ui.exception.EntityNotFoundException;
+import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.ui.exception.InvalidOperationException;
 import teammates.ui.exception.UnauthorizedAccessException;
 import teammates.ui.output.InstructorData;
 import teammates.ui.request.InstructorCreateRequest;
-import teammates.ui.exception.InvalidHttpRequestBodyException;
+
 
 /**
  * Action: adds another instructor to a course that already exists.

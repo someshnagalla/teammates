@@ -1,21 +1,21 @@
 package teammates.ui.servlets;
 
 import java.io.IOException;
-
 import jakarta.servlet.http.HttpServletResponse;
-
 import org.apache.http.HttpStatus;
 import org.hibernate.HibernateException;
-
 import teammates.common.exception.DeadlineExceededException;
 import teammates.common.util.Logger;
 import teammates.ui.exception.ActionMappingException;
 import teammates.ui.exception.EntityNotFoundException;
 import teammates.ui.exception.InvalidHttpParameterException;
+import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.ui.exception.InvalidOperationException;
 import teammates.ui.exception.UnauthorizedAccessException;
-import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.ui.webapi.JsonResult;
+
+
+
 
 /**
  * Maps servlet-layer exceptions to HTTP responses. Extracted from {@link WebApiServlet} for unit testing.

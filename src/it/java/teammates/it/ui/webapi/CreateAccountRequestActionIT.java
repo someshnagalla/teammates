@@ -1,23 +1,23 @@
 package teammates.it.ui.webapi;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotEquals;
-import static org.junit.jupiter.api.Assertions.assertNull;
-
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 import teammates.common.datatransfer.AccountRequestStatus;
 import teammates.common.exception.InvalidParametersException;
 import teammates.common.util.Const;
 import teammates.common.util.EmailType;
 import teammates.common.util.EmailWrapper;
 import teammates.storage.entity.AccountRequest;
+import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.ui.output.AccountRequestData;
 import teammates.ui.request.AccountCreateRequest;
-import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.ui.webapi.CreateAccountRequestAction;
 import teammates.ui.webapi.JsonResult;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
+
+
 
 /**
  * SUT: {@link CreateAccountRequestAction}.

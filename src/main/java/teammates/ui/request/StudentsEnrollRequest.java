@@ -3,9 +3,9 @@ package teammates.ui.request;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-
 import com.fasterxml.jackson.annotation.JsonCreator;
 import teammates.ui.exception.InvalidHttpRequestBodyException;
+
 
 /**
  * The request for enrolling a list of students.

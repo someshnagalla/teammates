@@ -7,10 +7,10 @@ import teammates.common.util.FieldValidator;
 import teammates.storage.entity.Course;
 import teammates.storage.entity.Instructor;
 import teammates.ui.exception.EntityNotFoundException;
+import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.ui.exception.UnauthorizedAccessException;
 import teammates.ui.output.CourseData;
 import teammates.ui.request.CourseUpdateRequest;
-import teammates.ui.exception.InvalidHttpRequestBodyException;
 
 /**
  * Updates a course.

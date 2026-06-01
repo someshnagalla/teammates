@@ -1,20 +1,20 @@
 package teammates.ui.servlets;
 
 import java.io.IOException;
-
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-
 import teammates.common.datatransfer.logs.RequestLogUser;
 import teammates.common.util.HibernateUtil;
 import teammates.common.util.Logger;
+import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.ui.exception.InvalidOperationException;
 import teammates.ui.exception.UnauthorizedAccessException;
-import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.ui.webapi.Action;
 import teammates.ui.webapi.ActionFactory;
 import teammates.ui.webapi.ActionResult;
+
+
 
 /**
  * Servlet that handles all requests from the web application.

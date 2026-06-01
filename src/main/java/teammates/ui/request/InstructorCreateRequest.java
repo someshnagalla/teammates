@@ -1,9 +1,9 @@
 package teammates.ui.request;
 
 import jakarta.annotation.Nullable;
-
 import teammates.common.datatransfer.InstructorPermissionRole;
 import teammates.ui.exception.InvalidHttpRequestBodyException;
+
 
 /**
  * The create request for an instructor to be created.

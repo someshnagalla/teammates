@@ -3,7 +3,6 @@ package teammates.ui.request;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
-
 import teammates.common.datatransfer.participanttypes.QuestionGiverType;
 import teammates.common.datatransfer.participanttypes.QuestionRecipientType;
 import teammates.common.datatransfer.participanttypes.ViewerType;
@@ -14,6 +13,7 @@ import teammates.common.util.JsonUtils;
 import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.ui.output.FeedbackVisibilityType;
 import teammates.ui.output.NumberOfEntitiesToGiveFeedbackToSetting;
+
 
 /**
  * The basic request of modifying a feedback question.

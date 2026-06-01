@@ -2,9 +2,7 @@ package teammates.ui.webapi;
 
 import java.lang.reflect.Type;
 import java.util.UUID;
-
 import jakarta.servlet.http.HttpServletRequest;
-
 import teammates.common.datatransfer.AuthContext;
 import teammates.common.datatransfer.InstructorPermissionSet;
 import teammates.common.datatransfer.logs.RequestLogUser;
@@ -25,10 +23,12 @@ import teammates.storage.entity.Student;
 import teammates.storage.entity.User;
 import teammates.ui.exception.EntityNotFoundException;
 import teammates.ui.exception.InvalidHttpParameterException;
+import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.ui.exception.InvalidOperationException;
 import teammates.ui.exception.UnauthorizedAccessException;
 import teammates.ui.request.BasicRequest;
-import teammates.ui.exception.InvalidHttpRequestBodyException;
+
+
 
 /**
  * An "action" to be performed by the system.

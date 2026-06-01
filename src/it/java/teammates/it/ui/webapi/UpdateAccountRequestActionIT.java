@@ -1,12 +1,8 @@
 package teammates.it.ui.webapi;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import java.util.UUID;
-
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 import teammates.common.datatransfer.AccountRequestStatus;
 import teammates.common.datatransfer.DataBundle;
 import teammates.common.exception.EntityAlreadyExistsException;
@@ -19,11 +15,15 @@ import teammates.storage.entity.AccountRequest;
 import teammates.storage.entity.Course;
 import teammates.ui.exception.EntityNotFoundException;
 import teammates.ui.exception.InvalidHttpParameterException;
+import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.ui.output.AccountRequestData;
 import teammates.ui.request.AccountRequestUpdateRequest;
-import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.ui.webapi.JsonResult;
 import teammates.ui.webapi.UpdateAccountRequestAction;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+
+
 
 /**
  * SUT: {@link UpdateAccountRequestAction}.

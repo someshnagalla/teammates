@@ -1,22 +1,15 @@
 package teammates.it.ui.webapi;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
-
 import jakarta.servlet.http.Cookie;
-
 import org.apache.http.HttpStatus;
 import org.apache.http.client.methods.HttpDelete;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.client.methods.HttpPut;
-
 import teammates.common.datatransfer.InstructorPermissionRole;
 import teammates.common.datatransfer.InstructorPrivileges;
 import teammates.common.exception.EntityAlreadyExistsException;
@@ -44,14 +37,21 @@ import teammates.test.MockHttpServletRequest;
 import teammates.ui.exception.ActionMappingException;
 import teammates.ui.exception.EntityNotFoundException;
 import teammates.ui.exception.InvalidHttpParameterException;
+import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.ui.exception.InvalidOperationException;
 import teammates.ui.exception.UnauthorizedAccessException;
 import teammates.ui.request.BasicRequest;
-import teammates.ui.exception.InvalidHttpRequestBodyException;
 import teammates.ui.webapi.Action;
 import teammates.ui.webapi.ActionFactory;
 import teammates.ui.webapi.ActionResult;
 import teammates.ui.webapi.JsonResult;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+
+
+
 
 /**
  * Base class for all action tests.
